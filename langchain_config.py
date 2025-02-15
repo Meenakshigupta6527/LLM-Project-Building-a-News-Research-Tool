@@ -4,8 +4,8 @@ from langchain.prompts import PromptTemplate
 from newsapi import NewsApiClient
 
 # Set API keys
-groq_api_key = "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"
-newsapi_key = "244b32011c544fb4ad40008d10a98b8f"
+groq_api_key = "gsk_3NIQSOgjZFLohP4GXvRIWG..................."
+newsapi_key = "244b32011c544fb4a.................."
 
 # Initialize Groq LLM
 llm = ChatGroq(api_key=groq_api_key, model_name="llama3-8b-8192")
